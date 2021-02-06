@@ -1,8 +1,8 @@
 #ifndef QTMATERIALAPPBAR_H
 #define QTMATERIALAPPBAR_H
 
-#include <QWidget>
-#include <QHBoxLayout>
+#include <QtWidgets/QWidget>
+#include <QtWidgets/QHBoxLayout>
 
 class QtMaterialAppBarPrivate;
 
