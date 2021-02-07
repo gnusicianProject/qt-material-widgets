@@ -156,4 +156,5 @@ add_library(material SHARED
 
 target_link_libraries (material PRIVATE Qt5::Core Qt5::Widgets)
 target_include_directories(material PUBLIC ./)
+install(TARGETS material DESTINATION lib)
 
